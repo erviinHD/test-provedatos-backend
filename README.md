@@ -5,7 +5,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Configure the Laravel `.env` file.
+Configure the Laravel `.env` file. 
 
 ## Command execution
 
@@ -18,7 +18,7 @@ php artisan serve
 
 Enter information in the provinces table with a follow script:
 ```
-INSERT INTO `provincia` (`nombre_provincia`, `capital_provincia`, `descripcion_provincia`, `poblacion_provincia`, `superficie_provincia`, `latitud_provincia`, `longitud_provincia`, `id_region`) VALUES
+INSERT INTO `provinces` (`nombre_provincia`, `capital_provincia`, `descripcion_provincia`, `poblacion_provincia`, `superficie_provincia`, `latitud_provincia`, `longitud_provincia`, `id_region`) VALUES
 ('Azuay', 'Cuenca', 'Es\r\nllamada la Atenas del Ecuador por su arquitectura, su diversidad cultural, su aporte a\r\nlas artes, ciencias y letras ecuatorianas y por ser el lugar de nacimiento de muchos\r\npersonajes ilustres de la sociedad ecuatoriana', 569.42, 122, -2.90222, 0, '1'),
 ('Bolivar', 'Guaranda', 'Bolívar es una provincia del centro de Ecuador, en la cordillera\r\noccidental de los Andes. Su capital es la ciudad de Guaranda. La Provincia de Bolívar se\r\nllama así en honor al Libertador Simón Bolívar.', 183, 3254, -1.6, 0, '1'),
 ('Cañar', 'Azoguez', 'La\r\nprovincia destaca como uno de los sitios turísticos más importantes del país,\r\ndestacándose entre otros la Fortaleza de Ingapirca, la Laguna de Culebrillas y la ciudad\r\nde Azogues.', 33848, 3908, -2.73333, -78.8333, '1'),
